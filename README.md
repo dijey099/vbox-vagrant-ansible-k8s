@@ -37,3 +37,5 @@ Try to deploy the simple Nginx server in your cluster:
 ```
 kubectl apply -f deploy-nginx.yml
 ```
+
+_Copyrights Dijey | 2024_
