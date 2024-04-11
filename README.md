@@ -26,7 +26,7 @@ pip3 install ansible ansible-core
 
 ## Post deployment
 Once your cluster deployed, you should have a Kubernetes configuration file in project root directory named `config`.
-Install **kubectl** on your OS and copy `config` file to `$HOME/.kube` (/home/_username_/.kube.
+Install **kubectl** on your OS and copy `config` file to `$HOME/.kube` (/home/_username_/.kube).
 If everything is OK, try to get the cluster's nodes using:
 ```
 kubectl get nodes
