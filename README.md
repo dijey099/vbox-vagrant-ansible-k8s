@@ -39,6 +39,19 @@ kubectl get nodes
 ```
 It should print some nodes named **srv-k8s-master** and **srv-k8s-workX**
 
+If you want to interract with VMs using SSH:
+```
+vagrant ssh srv-k8s-master
+
+```
+```
+vagrant ssh srv-k8s-workerX
+```
+```
+
+vagrant ssh srv-k8s-workerY
+```
+
 Try to deploy the simple Nginx server in your cluster:
 ```
 kubectl apply -f deploy-nginx.yml
