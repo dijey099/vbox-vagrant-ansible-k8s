@@ -24,6 +24,12 @@ Use the following command:
 pip3 install ansible ansible-core
 ```
 
+## Deploy Kubernetes Cluster
+Just bring VMs up using Vagrant
+```
+vagrant up
+```
+
 ## Post deployment
 Once your cluster deployed, you should have a Kubernetes configuration file in project root directory named `config`.
 Install **kubectl** on your OS and copy `config` file to `$HOME/.kube` (/home/_username_/.kube).
